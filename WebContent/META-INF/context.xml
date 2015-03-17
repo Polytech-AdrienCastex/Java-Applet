@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!-- <Context path="/ProgrammeDatasource" debug="1" 
+    reloadable="true"> -->
+<Context>
+        <Resource name="jdbc/DSMesStages"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="userepul"
+            password="epul"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/MesStages"
+            maxActive="8"
+            maxIdle="4"/>
+</Context>
